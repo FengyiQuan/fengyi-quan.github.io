@@ -1,3 +1,3 @@
-# fengyi-quan.github.io
+# fengyiquan.github.io
 
 hello world!
