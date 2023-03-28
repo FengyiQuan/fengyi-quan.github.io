@@ -1,6 +1,7 @@
 # Table
 - [Learning](#learning)
   - [Spanner](#spanner)
+  - [Blockstack](#blockstack)
 # Learning
 ## Spanner 
 - This article is modified based on <https://zhuanlan.zhihu.com/p/85616742>
@@ -25,3 +26,26 @@
   - **Consistency**: the application guarantees consistency by correctly marking transaction boundaries
   - **Independence/Isolation**: guaranteed through two-phase locking (2PL) or optimistic concurrency control (OCC)
   - **Durability**: the system guarantees durability by writing committed updates to stable/recoverable storage (e.g., logging, replication, or both)
+  
+## Blockstack
+- This article is modified based on <https://timilearning.com/https://timilearning.com/lecture-20-blockstack>
+### 去中心化架构
+在中心化应用程序中，应用程序代码与其存储数据的方式之间存在紧密耦合。 例如，Twitter 应用程序知道如何与 Twitter 的数据库进行交互。 但是在去中心化的应用程序中，我们可以将应用程序代码与用户数据分开。
+
+在这种架构中，我们可以拥有独立于与其交互的应用程序的存储服务。 该服务将基于每个用户而不是每个应用程序存储数据，网络上的每个用户都可以拥有和控制他们的数据。
+
+在设计此架构时，存储服务必须满足以下要求：
+- **General-purpose**: similar to the file system on your computer, it must have an API that allows multiple applications to interact with it.
+- **Cloud-based**: so users can access their data from anywhere.
+- **Fully controllable by a user**: it must support mechanisms for securing the data and controlling who can access it.
+- **Supports sharing between users** for apps where one user might read another user's information.
+
+此架构的优点：
+- Better ownership and control over their data and how it's used.
+- Better security and data privacy, assuming app owners implement end-to-end encryption.
+- Improved ability for users to switch between similar applications, since data storage is independent of the applications.
+
+Blockstack design goal:
+- Decentralized Naming & Discovery: End-users should be able to (a) register and use human-readable names and (b) discover network resources mapped to human-readable names without trusting any remote parties.
+- Decentralized Storage: End-users should be able to use decentralized storage systems where they can store their data without revealing it to any remote parties.
+- Comparable Performance: The end-to-end performance of the new architecture (including name/resource lookups, storage access, etc.) should be comparable to the traditional internet with centralized services.
