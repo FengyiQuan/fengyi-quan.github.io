@@ -50,3 +50,6 @@ Blockstack design goal:
 - Decentralized Naming & Discovery: End-users should be able to (a) register and use human-readable names and (b) discover network resources mapped to human-readable names without trusting any remote parties.
 - Decentralized Storage: End-users should be able to use decentralized storage systems where they can store their data without revealing it to any remote parties.
 - Comparable Performance: The end-to-end performance of the new architecture (including name/resource lookups, storage access, etc.) should be comparable to the traditional internet with centralized services.
+
+### Memcached at Facebook
+<https://timilearning.com/posts/mit-6.824/lecture-16-memcache-at-facebook/>
