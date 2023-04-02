@@ -28,7 +28,7 @@
   - **Durability**: the system guarantees durability by writing committed updates to stable/recoverable storage (e.g., logging, replication, or both)
   
 ## Blockstack
-- This article is modified based on <https://timilearning.com/><https://timilearning.com/lecture-20-blockstack>
+- This article is modified based on <https://timilearning.com/><https://timilearning.com/posts/mit-6.824/lecture-20-blockstack/>
 ### 去中心化架构
 在中心化应用程序中，应用程序代码与其存储数据的方式之间存在紧密耦合。 例如，Twitter 应用程序知道如何与 Twitter 的数据库进行交互。 但是在去中心化的应用程序中，我们可以将应用程序代码与用户数据分开。
 
