@@ -53,3 +53,6 @@ Blockstack design goal:
 
 ### Memcached at Facebook
 <https://timilearning.com/posts/mit-6.824/lecture-16-memcache-at-facebook/>
+
+### Brog
+<https://blog.csdn.net/redenval/article/details/80895167>
