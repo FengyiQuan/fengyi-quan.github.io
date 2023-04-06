@@ -56,3 +56,6 @@ Blockstack design goal:
 
 ### Brog
 <https://blog.csdn.net/redenval/article/details/80895167>
+
+### TensorFlow
+<https://github.com/florian/reading-notes/blob/master/papers/006_TensorFlow_A_system_for_large-scale_machine_learning.md>
